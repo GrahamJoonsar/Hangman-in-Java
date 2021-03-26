@@ -159,5 +159,6 @@ public class hangman{
 			checkGameStatus(guessedWordSpaces, wordLength, word); // Checks if player won or lost
 			
 		}
+		getInput.close();
 	}
 }
