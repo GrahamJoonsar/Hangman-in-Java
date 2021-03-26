@@ -47,7 +47,8 @@ public class hangman{
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
-		return line;
+		return line; // Comment out this and uncomment the line below if you don't want to download the txt file
+		// return "jazz"; This is the test word
 	}
 	
 	public static void checkUInput(char uInput, String word, String[] gWS) {
